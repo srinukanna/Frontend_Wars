@@ -1,0 +1,51 @@
+*
+{
+    margin:0px;
+    box-sizing:border-box;
+}
+
+body{
+    /* background-color: rgb(217, 250, 215);  */
+    background-color: burlywood;
+    height: 100%;
+}
+ 
+nav{
+    /* background-color:rgb(183, 225, 168) ; */
+    background-color: black;
+    color: aliceblue;
+    height:60px;
+    padding: 5px 45%;
+    box-sizing:border-box;
+   
+}
+
+.navcontainer
+{
+    height:100%;
+    display:flex;
+    align-items: center;
+    box-sizing: border-box;
+    gap:10px;
+}
+
+h2,h3
+{
+   font-size: 12px;
+   text-align: center;
+}
+
+img{
+    height:30px;
+    border-radius:60px;
+}
+
+footer{
+    display:block;
+    text-align: center;
+    
+}
+
+
+
+
