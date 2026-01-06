@@ -19,8 +19,8 @@ html,body{
    border: 1px solid  whitesmoke;
    border-radius: 15%;
    box-sizing: border-box;
-
 }
+
 .main_container:hover{
     box-shadow:0 0 10px rgb(47, 48, 48);
     cursor:pointer;
