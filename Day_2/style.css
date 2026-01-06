@@ -1,0 +1,56 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+   font-size:16px;
+}
+
+.main_container{
+   height:400px;
+   width:300px;
+   margin:auto;
+   padding:10px;
+   background-color: black;
+   color: white;
+   border: 1px solid  whitesmoke;
+   border-radius: 15%;
+   box-sizing: border-box;
+
+}
+.main_container:hover{
+    box-shadow: lightblue;
+}
+
+.tasks_input{
+    width: 100%;
+    border-radius: 6px;
+    padding:2px;
+   margin-top: 10px;
+}
+
+.container{
+   text-align: center;
+}
+
+
+.button_container{
+    display:flex;
+    gap:80%;
+}
+
+.add_btn{
+    width: 23px;
+}
+
+.list_container{
+   margin-top: 10%;
+}
+
+input{
+    width: 20px;
+    
+}
