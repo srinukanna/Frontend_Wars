@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo</title>
     <link rel="stylesheet" href="./style.css">
+   
 </head>
 <body>
 <section class="main_container">
 
 <section class="container">
-        <h1>Todo list</h1>
-        <hr>
+        <h1>Todo list</h1><hr>
         <div>
         <input type="text" name="items_operations" placeholder="Enter the tasks...." class="tasks_input" id="items">
         </div>
@@ -20,40 +20,21 @@
 <section class="button_container">
            <form>
             <div>
-               <button type="submit" class="add_btn">+</button>
+               <button type="submit" class="add_btn" onclick="todo(event)">+</button>
             </div>
 
             <div>
-                 <button type="reset" class="clear_btn">clear</button>
+                 <button type="reset" class="clear_btn" id="clear_btn">clear</button>
             </div>
             </form>
         
 </section>
          
-<section class="list_container">
-
-    <div class="item_1">
-       <input type="checkbox" name="coding" id="coding">
-       <label for="coding">coding</label>
-    </div>
-
-    <div class="item_2">
-       <input type="checkbox" name="sleeping" id="sleeping">
-       <label for="sleeping">sleeping</label>
-    </div>
-
-    <div class="item_3">
-       <input type="checkbox" name ="eating" id="eating">
-       <label for="eating">eating</label>
-    </div>
-      
-       
-      
-       
-    </section>
+<section class="list_container" id="todo_list">
+</section>
 
 
     </section>
-    
+     <script src="./script.js"></script>
 </body>
 </html>

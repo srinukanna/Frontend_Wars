@@ -60,3 +60,15 @@ input{
     width: 20px;
     
 }
+.completed
+{
+    text-decoration: line-through;
+    color:gray;
+}
+li{
+    list-style: none;
+}
+li:hover {
+    background-color: #333;
+    cursor: pointer;
+}

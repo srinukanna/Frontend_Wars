@@ -5,13 +5,11 @@
 }
 
 body{
-    /* background-color: rgb(217, 250, 215);  */
     background-color: burlywood;
     height: 100%;
 }
  
 nav{
-    /* background-color:rgb(183, 225, 168) ; */
     background-color: black;
     color: aliceblue;
     height:60px;
@@ -29,7 +27,7 @@ nav{
     gap:10px;
 }
 
-h2,h3
+h2
 {
    font-size: 12px;
    text-align: center;
@@ -40,11 +38,7 @@ img{
     border-radius:60px;
 }
 
-footer{
-    display:block;
-    text-align: center;
-    
-}
+
 
 
 
